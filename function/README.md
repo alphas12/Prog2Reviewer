@@ -154,4 +154,5 @@ int main() {
 // Inside function: 11
 // Outside function: 10
 ```
-/
+
+ <img src="images/passbycopy.png"/>
