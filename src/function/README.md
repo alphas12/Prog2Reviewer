@@ -96,4 +96,62 @@ the arguments passed to the function, and `result` is the variable that stores t
 
 - **Definition**: A type mismatch occurs when a variable or expression of one data type is assigned to or compared with another data type that is incompatible. This can lead to compilation errors or unexpected behavior during program execution.
 
-### Example:
+### Example 1: Assigning a pointer to an integer variable without proper casting.
+
+```c
+int *ptr;
+int num;
+// Incorrect assignment leading to type mismatch
+num = ptr; // This will cause a type mismatch error
+```
+### Example 2: Comparing a float with an integer without proper casting.
+
+```c
+int x = 5;
+float y = 5.0;
+// Comparing different types
+if (x == y) {
+    // This may lead to unexpected behavior due to type mismatch
+}
+```
+
+### Example 3: Function expecting an int pointer but receiving an int.
+```c
+void func(int *ptr);
+int num = 10;
+// Incorrect function call leading to type mismatch
+func(num); // This will cause a type mismatch error
+```
+
+# Types of Parameter Passing Techniques in C
+
+In C, there are two primary parameter passing techniques:
+1. **Pass by Copy**
+2. **Pass by Address (Pass by Reference)**
+
+## Pass by Copy
+- **Definition:** A copy of the actual parameter's value is passed to the function. Changes made to the parameter inside the function do not affect the original variable.
+
+- **Characteristics:**
+  - The called function works with the copy of the argument's value.
+  - Safe from unintended side-effects since the original data is not modified.
+
+```c
+#include <stdio.h>
+
+void increment(int num) {
+    num++;
+    printf("Inside function: %d\n", num);
+}
+
+int main() {
+    int a = 10;
+    increment(a);
+    printf("Outside function: %d\n", a);
+    return 0;
+}
+// Output:
+// Inside function: 11
+// Outside function: 10
+```
+/
