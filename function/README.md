@@ -159,7 +159,7 @@ int main() {
 
 
 <p align = "center">
-  This shows that it passing the values from the variable a to the function name called <b>increment</b>.
+  The value initialized from <i>a</i> was passed by copy to the function called  <b>increment</b>.
 </p>
 
 ## Pass by Address (Pass by Reference)
@@ -192,8 +192,7 @@ int main() {
 
 <img src="../images/passbyreference.png">
 <p align = "center">
-This shows that it passing the address of the variable a to the function name called <b>
-increment</b>. The function can modify the original variable's value.
+  Num variable is getting the address of variable <i>a</i>.
 </p>
 
 
