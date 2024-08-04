@@ -155,4 +155,6 @@ int main() {
 // Outside function: 10
 ```
 
- <img src="images/passbycopy.png"/>
+```HTML
+ <img src="/images/passbycopy.png">
+```
