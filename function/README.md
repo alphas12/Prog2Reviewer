@@ -197,13 +197,4 @@ increment</b>. The function can modify the original variable's value.
 </p>
 
 
-Additional Notes
-Return Types: Functions can return various data types including int, float, char, pointers, and even user-defined types like structs.
-
-Function Arguments: Functions can accept any number of arguments, including no arguments at all (void).
-Function Overloading: C does not support function overloading, but it can be achieved using function pointers
-
-Function Pointers: C supports function pointers, which are pointers that store the memory address of a function 
-
-
 
