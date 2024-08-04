@@ -157,4 +157,53 @@ int main() {
 
 <img src="../images/passbycopy.png">
 
+
+<p align = "center">
+  This shows that it passing the values from the variable a to the function name called <b>increment</b>.
+</p>
+
 ## Pass by Address (Pass by Reference)
+
+- **Definition:** The address of the actual parameter is passed to the function, allowing direct modification of the original value.
+
+- **Characteristics:**
+  - The called function can modify the original variable's value.
+  - More efficient for passing large structures or arrays since only the address is copied.
+  - Requires the use of pointers to access the original variable.
+
+```c
+#include <stdio.h>
+
+void increment(int *num) {
+    (*num)++;
+    printf("Inside function: %d\n", *num);
+}
+
+int main() {
+    int a = 10;
+    increment(&a);
+    printf("Outside function: %d\n", a);
+    return 0;
+}
+// Output:
+// Inside function: 11
+// Outside function: 11
+```
+
+<img src="../images/passbyreference.png">
+<p align = "center">
+This shows that it passing the address of the variable a to the function name called <b>
+increment</b>. The function can modify the original variable's value.
+</p>
+
+
+Additional Notes
+Return Types: Functions can return various data types including int, float, char, pointers, and even user-defined types like structs.
+
+Function Arguments: Functions can accept any number of arguments, including no arguments at all (void).
+Function Overloading: C does not support function overloading, but it can be achieved using function pointers
+
+Function Pointers: C supports function pointers, which are pointers that store the memory address of a function 
+
+
+
