@@ -155,6 +155,6 @@ int main() {
 // Outside function: 10
 ```
 
-<img src="images/passbycopy.png" alt="Pass by Copy">
+<img src="../images/passbycopy.png">
 
 ## Pass by Address (Pass by Reference)
