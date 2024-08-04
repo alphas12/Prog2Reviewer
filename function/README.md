@@ -155,6 +155,6 @@ int main() {
 // Outside function: 10
 ```
 
-```HTML
- <img src="/images/passbycopy.png">
-```
+<img src="/Users/alninopastoriza/Documents/GitHub/Prog2Reviewer/images/passbycopy.png">
+
+## Pass by Address (Pass by Reference)
