@@ -18,7 +18,7 @@ int *ptr = &x; //ptr gets the address of x
 ```
 
 
-<img src="../images/pointer.png">
+<img src="../../images/pointer.png">
 
 <p align="center">
     ptr gets the address of the x.
@@ -46,13 +46,13 @@ ptr++; // Now points to arr[1]
 ptr + 1;
 ```
 
-<img src="../images/pointerarithmethic.png">
+<img src="../../images/pointerarithmethic.png">
 
 <p align = "center">
     The name of the variable is a pointer to the first element. The `ptr` copies the address of the `arr` variable.
 <p>
 
-<img src="../images/pointerarith2.png">
+<img src="../../images/pointerarith2.png">
 
 <p align = "center">
     Now the points to arr[1].

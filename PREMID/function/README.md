@@ -155,7 +155,7 @@ int main() {
 // Outside function: 10
 ```
 
-<img src="../images/passbycopy.png">
+<img src="../../images/passbycopy.png">
 
 
 <p align = "center">
@@ -190,7 +190,7 @@ int main() {
 // Outside function: 11
 ```
 
-<img src="../images/passbyreference.png">
+<img src="../../images/passbyreference.png">
 <p align = "center">
   Num variable is getting the address of variable <i>a</i>.
 </p>
