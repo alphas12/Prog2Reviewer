@@ -66,7 +66,7 @@ if (ptr == NULL) {
 }
 ```
 
-3. realloc (Reallocation)**
+3. **realloc (Reallocation)**
 
 - **Purpose:** Changes the size of the previously allocated memory block to a new size.
 - **Syntax:** `void* realloc(void* ptr, size_t size);`
