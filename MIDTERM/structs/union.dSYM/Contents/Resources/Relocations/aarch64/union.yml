@@ -1,8 +1,0 @@
----
-triple:          'arm64-apple-darwin'
-binary-path:     '/Users/alninopastoriza/Documents/GitHub/Prog2Reviewer/MIDTERM/structs/union'
-relocations:
-  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _Display, symObjAddr: 0x0, symBinAddr: 0x100003CD8, symSize: 0xA0 }
-  - { offsetInCU: 0x41, offset: 0x41, size: 0x8, addend: 0x0, symName: _Display, symObjAddr: 0x0, symBinAddr: 0x100003CD8, symSize: 0xA0 }
-  - { offsetInCU: 0x65, offset: 0x65, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0xA0, symBinAddr: 0x100003D78, symSize: 0x130 }
-...
