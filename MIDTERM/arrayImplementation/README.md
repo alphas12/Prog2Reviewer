@@ -8,7 +8,7 @@
 **Challenge:** Try to write the definition of the code based on the provided picture.
 
 ## Version Two
-- List is a pointer to a structure containing an array and variable count. 
+- List is a pointer to a structure (a dynamic) containing an array and variable count. 
 
 <img src = "../../images/versiontwo.png">
 
