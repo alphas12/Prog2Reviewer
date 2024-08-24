@@ -15,7 +15,7 @@ Before we delve into Dynamic Memory Allocation, Let us talk about execution stac
 
 
 
-<img src="../images/visualizationofstackheap.png">
+<img src="../../images/visualizationofstackheap.png">
 <p align = "center">
     <i>Conceptual View of Stack and Heap</i>
 </p>
